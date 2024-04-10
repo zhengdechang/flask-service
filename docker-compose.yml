@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  backend:
+    image: backend:v1.0-rc
+    volumes:
+      - /srv/srt/.env:/opt/.env
+      - /tmo/log/:/opt/log
+    network_mode: host
+    restart: always
+  frontend:
+    image: frontend:v1.0-rc
+    network_mode: host
+    restart: always

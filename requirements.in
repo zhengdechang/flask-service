@@ -1,0 +1,13 @@
+psutil==5.9.4
+redis==4.5.5
+flask==2.2.3
+flask_sqlalchemy==3.0.3
+eventlet==0.36.1
+flask_cors==3.0.10
+python-dotenv==0.21.1
+flask-login==0.6.1
+Flask-WTF==1.0.1
+Werkzeug==2.2.2
+sqlalchemy[asyncio]==1.4.39
+psycopg2-binary==2.9.3
+pyjwt==2.8.0
