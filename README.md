@@ -35,7 +35,7 @@ CREATE DATABASE flask_app;
 ALTER USER flask_app WITH SUPERUSER;
 GRANT ALL PRIVILEGES ON DATABASE flask_app TO flask_app;
 
-# 注意：这里的数据库信息需要与engine.py中的信息对应
+# 注意：这里的数据库信息需要与database中的get_connection_url信息对应
 ```
 
 5. 运行项目：
