@@ -1,0 +1,62 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Bazel related ignore
+.clwb
+bazel-bin
+bazel-out
+bazel-testlogs
+bazel-JancsiWorkSpace
+
+# Miscs
+*cmake-build-debug*
+.vscode
+*.idea*
+*.vs*
+WINDOWS_SOLUTIONS/pro_AI/out
+WINDOWS_SOLUTIONS/pro_AI/algo_api_test_images/
+WINDOWS_SOLUTIONS/pro_AI/results/
+WINDOWS_SOLUTIONS/pro_AI/password.txt
+WINDOWS_SOLUTIONS/pro_AI/model.data
+
+*CMakeSettings.json
+*.onnx
+*.ijwb*
+
+common/apps/jancsi_image_system/frontend/dist
+
+*node_modules*
+
+__pycache__/
+.DS_Store
+command_log.txt
